@@ -26,11 +26,31 @@ Azure AI Foundry é uma plataforma da Microsoft para desenvolvimento, implantaç
 
 ## Como o Foundry Funciona
 
+O Foundry organiza os recursos em camadas para facilitar governança e colaboração. Cada instância possui um recurso `Azure AI Foundry` (antes chamado de AI Services) hospedado em um grupo de recursos do Azure. Dentro dele você cria *hubs* e *projects*, que funcionam como workspaces lógicos para equipes. Os projetos compartilham ativos comuns do hub (connections, compute, rede) e guardam seus próprios componentes como datasets, fluxos, agentes e deployments ([documentação](https://learn.microsoft.com/azure/ai-foundry/how-to/hub-create-projects)).
+
+Fluxo típico de operação:
+
+1. Provisionar o recurso Foundry e um hub/projeto para o time.
+2. Conectar o projeto a serviços essenciais (Azure AI Services/OpenAI, Azure Storage, Application Insights etc.) via `Management center` > `Connections` ([guia de conexões](https://learn.microsoft.com/azure/ai-foundry/how-to/connections-add)).
+3. Implantar modelos base ou serverless no catálogo (`Models + endpoints`) e habilitar o uso em playgrounds ou APIs.
+4. Construir agentes, fluxos de Prompt com workflows ou integrações customizadas consumindo as conexões e deployments aprovados.
+5. Monitorar telemetria (Application Insights), políticas e segurança diretamente pelo portal ou infraestrutura como código (Bicep/Terraform).
+
+Essa arquitetura separa claramente gestão (hub) e consumo (project), permitindo que múltiplas equipes usem o mesmo backbone com isolamento de dados e políticas.
 
 ---  
 
-## Estensibilidade do AI Foundry
+## Extensibilidade do AI Foundry
 
+O Foundry foi pensado para ser extensível via conexões reutilizáveis e APIs abertas. Alguns pontos-chave:
+
+- **Connections reutilizáveis**: você pode integrar Azure AI Search, Cosmos DB, Storage, APIs externas ou endpoints personalizados. As conexões podem usar Managed Identity, service principal, chaves ou SAS, funcionando como *identity broker* para os recursos conectados ([conexões em hubs](https://learn.microsoft.com/azure/ai-foundry/how-to/hub-connections-add)).
+- **SDKs e CLIs**: o serviço expõe SDKs (Python, REST) e suporte a Bicep/Terraform para automação de deployments, recriação de projetos e pipelines de CI/CD.
+- **Agentes e ferramentas**: via Agent Service é possível anexar ferramentas próprias, fontes de dados e ações externas, mantendo o controle de credenciais através das mesmas conexões.
+- **Infraestrutura compartilhável**: hubs diferentes podem consumir o mesmo recurso Foundry ou outras contas Azure AI, permitindo topologias multi-projeto ou multi-região conforme necessidade.
+- **Observabilidade plugável**: Application Insights, Log Analytics e Azure Monitor se conectam como serviços auxiliares para métricas e logs centralizados.
+
+Com essas extensões, times conseguem adicionar novos modelos, integrar dados proprietários e orquestrar agentes sem reimplantar a base, mantendo conformidade e governança centralizadas.
 
 ---  
 

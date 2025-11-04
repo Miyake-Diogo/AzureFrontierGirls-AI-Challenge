@@ -125,6 +125,13 @@ Alguns casos de sucesso reais de clientes da Microsoft:
 
 
 ---  
+## HANDS ON
+
+Bora colocar em prática esse conteúdo?  
+Para isso vamos seguir o material prático: [AI Foundry na Prática](./Azure_AI_Foundry_na_Pratica.md)
+
+
+---  
 
 ## Referências
 

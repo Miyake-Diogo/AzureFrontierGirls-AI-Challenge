@@ -84,10 +84,10 @@ A nota final será calculada automaticamente conforme a fórmula:
 
 | Data | Dia | Atividade | Material de Referência |
 |------|-----|-----------|------------------------|
-| 06/11 | Quinta-feira | Build Your First Copilot Challenge (Foundry Edition) - Aula e explicação do challenge | |
-| 10/11 | Segunda-feira | Build Your First Copilot Challenge (Foundry Edition) - Hands-on | |
-| 12/11 | Quarta-feira | Build Your First Copilot Challenge (Foundry Edition) - Hands-on | |
-| 18/11 | Terça-Feira | Build Your First Copilot Challenge (Foundry Edition) - Hands-on e tira dúvidas e sorteio das 5 que irão apresentar | |
+| 06/11 | Quinta-feira | Build Your First Copilot Challenge (Foundry Edition) - Aula e explicação do challenge | [Link](./README.md) |
+| 10/11 | Segunda-feira | Build Your First Copilot Challenge (Foundry Edition) - Hands-on | [Link](./Aula%201/Azure_AI_Foundry.md) |
+| 12/11 | Quarta-feira | Build Your First Copilot Challenge (Foundry Edition) - Hands-on | [Link](./Aula%202/AI_Agent_Services.md) |
+| 18/11 | Terça-Feira | Build Your First Copilot Challenge (Foundry Edition) - Hands-on e tira dúvidas e sorteio das 5 que irão apresentar | [Link](./Aula%203/Agent_Framework.md) |
 
 
 ## Pré-Requisitos
@@ -114,8 +114,8 @@ A aula 3 será necessário o uso de Python para programar, portanto é important
 ## Aulas  
 
 1. [Aula 1 - Visão geral do AI Foundry](./Aula%201/Azure%20AI%20Foundry.md)
-2. [Aula 2 - Visão geral de Agentes no AI Foundry]()
-3. [Aula 3 - Visão geral do Microsoft Agent Framework]()
+2. [Aula 2 - Visão geral de Agentes no AI Foundry](./Aula%202/AI_Agent_Services.md)
+3. [Aula 3 - Visão geral do Microsoft Agent Framework](./Aula%203/Agent_Framework.md)
 
 ## Indicações de materiais
 
@@ -131,6 +131,4 @@ A aula 3 será necessário o uso de Python para programar, portanto é important
 - [AI Agents for Begineers Repository](https://github.com/microsoft/ai-agents-for-beginners?WT.mc_id=academic-105485-koreyst)
 - [MCP for Beginners Repository](https://github.com/microsoft/mcp-for-beginners?WT.mc_id=academic-105485-koreyst)
 - [Discord do AI Foundry](https://aka.ms/foundry/discord)
-
-
 

@@ -113,7 +113,7 @@ A aula 3 será necessário o uso de Python para programar, portanto é important
 
 ## Aulas  
 
-1. [Aula 1 - Visão geral do AI Foundry](./Aula%201/Azure%20AI%20Foundry.md)
+1. [Aula 1 - Visão geral do AI Foundry](./Aula%201/Azure_AI_Foundry.md)
 2. [Aula 2 - Visão geral de Agentes no AI Foundry](./Aula%202/AI_Agent_Services.md)
 3. [Aula 3 - Visão geral do Microsoft Agent Framework](./Aula%203/Agent_Framework.md)
 

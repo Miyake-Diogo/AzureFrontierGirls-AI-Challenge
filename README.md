@@ -10,7 +10,6 @@ Desafio do Azure Frontier Girls de AI Foundry.
 
 # 🏅 Regras Oficiais — Seleção para Voucher de Certificação AZ-900
 
-
 ## Azure Frontier Girls – Build Your First Copilot Challenge (Foundry Edition)
 
 
@@ -27,7 +26,7 @@ Reconhecer e premiar as participantes que concluírem o programa com excelência
 As candidatas serão avaliadas em **cinco eixos principais**, que somam **100 pontos**.  
 A pontuação será registrada em **planilha oficial** (monitorada pela equipe organizadora) e servirá como base para o ranking final de elegibilidade.
 
-| **Eixo*-                              | **Descrição*-                                                                           | **Peso**  |
+| **_Eixo_**                              | **_Descrição_**                                                                           | **_Peso_**  |
 | --------------------------------------- | ----------------------------------------------------------------------------------------- | --------- |
 | 1. Participação e Presença nas Aulas    | Participação ativa nas sessões ao vivo e presença confirmada (mínimo 75%).                | 20 pontos |
 | 2. Desempenho em Quizzes                | Média de acertos nos quizzes semanais aplicados via Forms (mínimo 60% de aproveitamento). | 10 pontos |
@@ -82,12 +81,15 @@ A nota final será calculada automaticamente conforme a fórmula:
 
 ## Cronograma
 
+> Observação: Embora a idéia seja passar por estes temas nestas datas, pode ser que o conteudo todo ou seja adiantado ou atrasado devido a profundidade do que for passado.  
+
+
 | Data | Dia | Atividade | Material de Referência |
 |------|-----|-----------|------------------------|
-| 06/11 | Quinta-feira | Build Your First Copilot Challenge (Foundry Edition) - Aula e explicação do challenge | [Link](./README.md) |
-| 10/11 | Segunda-feira | Build Your First Copilot Challenge (Foundry Edition) - Hands-on | [Link](./Aula%201/Azure_AI_Foundry.md) |
-| 12/11 | Quarta-feira | Build Your First Copilot Challenge (Foundry Edition) - Hands-on | [Link](./Aula%202/AI_Agent_Services.md) |
-| 18/11 | Terça-Feira | Build Your First Copilot Challenge (Foundry Edition) - Hands-on e tira dúvidas e sorteio das 5 que irão apresentar | [Link](./Aula%203/Agent_Framework.md) |
+| 06/11 | Quinta-feira | Build Your First Copilot Challenge (Foundry Edition) - Aula e explicação do challenge | [Readme](./README.md) e [Aula 1](./Aula%201/Azure_AI_Foundry.md) |
+| 10/11 | Segunda-feira | Build Your First Copilot Challenge (Foundry Edition) - Hands-on | [AI Foundry](./Aula%201/Azure_AI_Foundry.md) |
+| 12/11 | Quarta-feira | Build Your First Copilot Challenge (Foundry Edition) - Hands-on | [AI Agents](./Aula%202/AI_Agent_Services.md) |
+| 18/11 | Terça-Feira | Build Your First Copilot Challenge (Foundry Edition) - Hands-on e tira dúvidas e sorteio das 5 que irão apresentar | [Microsoft Agent Framework](./Aula%203/Agent_Framework.md) |
 
 
 ## Pré-Requisitos
@@ -131,4 +133,4 @@ A aula 3 será necessário o uso de Python para programar, portanto é important
 - [AI Agents for Begineers Repository](https://github.com/microsoft/ai-agents-for-beginners?WT.mc_id=academic-105485-koreyst)
 - [MCP for Beginners Repository](https://github.com/microsoft/mcp-for-beginners?WT.mc_id=academic-105485-koreyst)
 - [Discord do AI Foundry](https://aka.ms/foundry/discord)
-
+- [Regioes dos modelos](https://learn.microsoft.com/en-us/azure/ai-foundry/agents/concepts/model-region-support?tabs=global-standard)

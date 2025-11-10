@@ -1,4 +1,4 @@
-# AI Foundry na Prática
+# AI Foundry na Prática - Aula 2
 
 Agora que já sabe sobre o que se trata o AI Foundry e como os Agentes de AI funcionam, é hora de colocar em prática as habilidades que foram adquiridas.  
 
@@ -81,16 +81,18 @@ Após a criação do Recurso do Foundry, criação do projeto e implementação 
 
 6. Vamos configurar um catalogo de aniversariantes para que não seja necessário informar o endereço de e-mail no prompt. Faça o download do arquivo lista-de-aniversariantes.txt. Abra o arquivo e inclua um aniversariante novo com um endereço de e-mail válido.
 - Na mesma tela de configuração do Agente, vá até `Knowledge` e clique em `+Add`. 
-- Em `Add a data source` clique em `Files`. Em `Add files` selecione `Upload local`e clique em `Select local files`. Selecione o arquivo lista-de-aniversariantes.txt que você baixou e editou no passo anterior. Clique em `Upload and save`
+- Em `Add a data source` clique em `Files`. Em `Add files` selecione `Upload local`e clique em `Select local files`. Selecione o arquivo [lista-de-aniversariantes.txt](.\lista-de-aniversariantes.txt) que você baixou e editou no passo anterior. Clique em `Upload and save`
 
 7. Clique em `Try in playground` para testar o agente. Digite alguma mensagem desejando feliz aniversário para alguém 
-    (ex.: `Envie um e-mail para o "Nome que você adicionou na lista do arquivo lista-de-aniversariantes.txt" desejando feliz aniversário com uma mensagem bem alegre e divertida usando o seu gosto por videogames como temática.`)
+    (ex.: `Envie um e-mail para o "Nome que você adicionou na lista do arquivo [lista-de-aniversariantes.txt](.\lista-de-aniversariantes.txt)" desejando feliz aniversário com uma mensagem bem alegre e divertida usando o seu gosto por videogames como temática.`)
 
     Agora o Agente será capaz de concluir a tarefa porque ele já sabe quem é a pessoa (você informou o nome prompt e ele sabe qual o e-mail pois ele tem o conhecimento na base que você incluiu) e ele já tem instruções descritivas para envio do e-mail (a ferramenta foi configurada para esse proposito).  
 
 8. Teste outras formas de interação com o agente.
     
 > Importante: monitore o consumo de Tokens-per-Minute (TPM) da assinatura para evitar bloqueios de quota.
+
+---
 
 ## Referências
 

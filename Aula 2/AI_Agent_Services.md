@@ -60,22 +60,13 @@ Resultado: **agentes prontos para produção**, seguros e escaláveis.
 
 ---  
 
-## Como começar?
+## HANDS ON
 
-1.  Crie um projeto no **Azure AI Foundry**.
-2.  Configure o ambiente e siga o **Quickstart**.
-3.  Implante um modelo (ex.: GPT-4o).
-4.  Comece a fazer chamadas via SDK ou API.
+Bora colocar em prática esse conteúdo?  
+Para isso vamos seguir o material prático: [AI Foundry na Prática](./Azure_AI_Foundry_na_Pratica_aula_2.md)
 
----  
+---
 
-## Continuidade e Recuperação (BCDR)
-
-- Use sua própria conta **Cosmos DB** para armazenar o estado dos agentes.
-- Em caso de falha regional, o agente continua operando na região secundária.
-- Configure políticas de backup e recuperação para garantir resiliência.
-
----  
 
 ### Recursos adicionais
 

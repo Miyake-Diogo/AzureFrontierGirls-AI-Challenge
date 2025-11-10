@@ -91,6 +91,7 @@ Após a criação do Recurso do Foundry, criação do projeto e implementação 
 8. Teste outras formas de interação com o agente.
     
 > Importante: monitore o consumo de Tokens-per-Minute (TPM) da assinatura para evitar bloqueios de quota.
+
 > Use a dica do arquivo [AI Foundry Screen](./AI_Foundry_Screen.png) para localizar os menus necessários para fazer o lab de criação de agentes.
 ---
 

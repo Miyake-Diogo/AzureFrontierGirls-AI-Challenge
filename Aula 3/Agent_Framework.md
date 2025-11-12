@@ -59,7 +59,7 @@ Se você precisa de **multi‑agente low‑code** (ex.: “mestre” + “child 
 > Python – instalação e hello world (repo oficial) [\[github.com\]](https://github.com/microsoft/agent-framework)
 
 ```bash
-pip install agent-framework 
+pip install agent-framework --prerelease=allow
 ```
 
 ```python

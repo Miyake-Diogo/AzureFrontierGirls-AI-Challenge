@@ -1,0 +1,11 @@
+[project]
+name = "azurefrontiergirls-ai-challenge"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "agent-framework>=1.0.0b251111",
+    "azure-ai-agents==1.2.0b5",
+    "ipykernel>=7.1.0",
+]

@@ -47,6 +47,7 @@ O repositório da participante deve conter:
 - **Agente funcional no Foundry**, com:
     - Pelo menos **1 ação funcional** (ex.: cálculo, busca ou automação simples)
 - **Entrega dentro do prazo**
+    - Prazo para entrega 19/11/2025  
 
 ---  
 
@@ -90,6 +91,16 @@ A nota final será calculada automaticamente conforme a fórmula:
 | 10/11 | Segunda-feira | Build Your First Copilot Challenge (Foundry Edition) - Hands-on | [AI Foundry](./Aula%201/Azure_AI_Foundry.md) |
 | 12/11 | Quarta-feira | Build Your First Copilot Challenge (Foundry Edition) - Hands-on | [AI Agents](./Aula%202/AI_Agent_Services.md) |
 | 18/11 | Terça-Feira | Build Your First Copilot Challenge (Foundry Edition) - Hands-on e tira dúvidas e sorteio das 5 que irão apresentar | [Microsoft Agent Framework](./Aula%203/Agent_Framework.md) |
+
+
+## INFORMAÇÕES IMPORTANTES  
+
+**DATA FINAL:** 19 de Novembro de 2025.  
+**TEMA:** LIVRE, DESDE QUE SIGA OS PRE-REQUISITOS
+**GRUPO OU INDIVIDUAL:** ERRATA: Numa das aulas anteriores havia sido falado sobre a possibilidade de realizar em grupo o projeto. O projeto TEM DE SER ENTREGUE INDIVIDUAL, vocês podem se juntar em grupo mas para entregar tem de ser individual.  
+**SOBRE A ENTREGA:** Tem de ser em um repositorio do github contendo o roteiro:  
+- Sendo OBRIGATÓRIO o passo a passo descrito e os prints de como foi feito.  
+- OPCIONAL: Um vídeo contendo o passo a passo.  
 
 
 ## Pré-Requisitos

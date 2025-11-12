@@ -96,11 +96,27 @@ A nota final será calculada automaticamente conforme a fórmula:
 ## INFORMAÇÕES IMPORTANTES  
 
 **DATA FINAL:** 19 de Novembro de 2025.  
-**TEMA:** LIVRE, DESDE QUE SIGA OS PRE-REQUISITOS
+**TEMA:** LIVRE, DESDE QUE SIGA OS PRE-REQUISITOS  
 **GRUPO OU INDIVIDUAL:** ERRATA: Numa das aulas anteriores havia sido falado sobre a possibilidade de realizar em grupo o projeto. O projeto TEM DE SER ENTREGUE INDIVIDUAL, vocês podem se juntar em grupo mas para entregar tem de ser individual.  
 **SOBRE A ENTREGA:** Tem de ser em um repositorio do github contendo o roteiro:  
 - Sendo OBRIGATÓRIO o passo a passo descrito e os prints de como foi feito.  
 - OPCIONAL: Um vídeo contendo o passo a passo.  
+
+### FAQ
+- Prints a partir de qual etapa? Somente quando for criar o agente por exemplo?
+  A partir da criação dos agentes.  
+- O print seria do passo a passo?
+  Sim.  
+- Tenho uma dúvida: é necessário fazer uma versão do agente em código?
+  Não pode ser somente no portal, via código é opcional.  
+- Dúvida sobre o challeng, após entregar, podemos apagar todos os recursos? Pra garantir que não cobre nada?  
+  Não só pode como deve, justamente para não gerar custos.  
+- Escrever ou fazer vídeo no Readme?  
+  Pode escrever no readme, em qualque app e salvar em pdf também, ou em outro arquivo markdown, e embedar o video no readme do repo.  
+- Serão sorteadas para apresentação 5 pessoas. Confere?
+  Isso 5 pessoas.
+- Onde subimos o vídeo?
+  Pode ser no youtube, drive(onedrive, googledrive, box) onde desejar. Só colocar o link no readme ou no arquivo com o passo a passo.  
 
 
 ## Pré-Requisitos
